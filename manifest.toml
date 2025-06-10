@@ -39,9 +39,9 @@ ram.runtime = "50M"
 
 [resources]
 
-    [resources.sources]
+    #[resources.sources]
 
-    [resources.sources.main]
+    #[resources.sources.main]
     #url = "https://github.com/ollama/ollama/releases/download/v0.9.0/ollama-linux-arm64.tgz"
     #sha256 = "288b6f7ed9175476943c0c01f21df1de21df590b0b3ed5dee16a5285d5da84e4"
 
