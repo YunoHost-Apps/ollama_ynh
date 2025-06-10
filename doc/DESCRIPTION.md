@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+ Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1 and other large language models. 
