@@ -12,11 +12,11 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression "Setting up source files..."
 
-#ynh_setup_source --dest_dir="$install_dir"
+ynh_setup_source --dest_dir="$install_dir"
 
-curl --fail --show-error --location --progress-bar \
-    "https://github.com/ollama/ollama/releases/download/v0.9.0/ollama-linux-amd64.tgz" | \
-    sudo tar -xzf - -C "$install_dir"
+#curl --fail --show-error --location --progress-bar \
+#    "https://github.com/ollama/ollama/releases/download/v0.9.0/ollama-linux-amd64.tgz" | \
+#    sudo tar -xzf - -C "$install_dir"
 
 chown -R "$app:$app" "$install_dir"
 
