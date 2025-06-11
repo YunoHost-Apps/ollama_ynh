@@ -10,6 +10,9 @@ WorkingDirectory=__INSTALL_DIR__/
 ExecStart=__INSTALL_DIR__/bin/ollama serve
 StandardOutput=append:/var/log/__APP__/__APP__.log
 StandardError=inherit
+Environment="OLLAMA_ORIGINS=https://__DOMAIN__"
+Environment="OLLAMA_HOST=http://0.0.0.0:11434"
+
 
 ### Depending on specificities of your service/app, you may need to tweak these
 ### .. but this should be a good baseline
