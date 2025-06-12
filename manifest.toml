@@ -35,6 +35,7 @@ ram.runtime = "4G"
     type = "domain"
 
     [install.init_main_permission]
+    type = "group"
     default = "visitors"
 
 [resources]
