@@ -19,6 +19,8 @@ ynh_setup_source --dest_dir="$install_dir"
 #    sudo tar -xzf - -C "$install_dir"
 
 chown -R "$app:$app" "$install_dir"
+mkdir -p "$data_dir/models" 
+chown -R "$app:$app" "$data_dir"
 
 #=================================================
 # SYSTEM CONFIGURATION
