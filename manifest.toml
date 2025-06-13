@@ -58,6 +58,8 @@ ram.runtime = "4G"
 
     [resources.install_dir]
 
+    [resources.data_dir]
+    
     [resources.permissions]
     main.url = "/"
 

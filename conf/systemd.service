@@ -12,7 +12,7 @@ StandardOutput=append:/var/log/__APP__/__APP__.log
 StandardError=inherit
 Environment="OLLAMA_ORIGINS=https://__DOMAIN__"
 Environment="OLLAMA_HOST=http://0.0.0.0:11434"
-
+Environment="OLLAMA_MODELS=__DATA_DIR__/models"
 
 ### Depending on specificities of your service/app, you may need to tweak these
 ### .. but this should be a good baseline
