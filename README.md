@@ -18,6 +18,10 @@ Get up and running with large language models.
 <a href="https://github.com/YunoHost-Apps/ollama_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
 </div>
 
+
+## Screenshots
+![Screenshot of Ollama](./doc/screenshots/example.jpg)
+
 ## 📦 Developer info
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/ollama)](https://ci-apps.yunohost.org/ci/apps/ollama/)
