@@ -4,7 +4,7 @@ packaging_format = 2
 
 id = "ollama"
 name = "Ollama"
-description.en = "Get up and running with large language models."
+description.en = "Get up and running with large language models"
 
 version = "0.11.8~ynh1"
 
@@ -23,7 +23,6 @@ architectures = "all"
 multi_instance = false
 
 ldap = false
-
 sso = false
 
 disk = "2G"
@@ -61,7 +60,8 @@ ram.runtime = "4G"
     [resources.install_dir]
 
     [resources.data_dir]
-    
+    subdirs = ["models"]
+
     [resources.permissions]
     main.url = "/"
 
