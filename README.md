@@ -8,7 +8,7 @@ It shall NOT be edited by hand.
   Ollama, packaged for YunoHost
 </h1>
 
-Get up and running with large language models.
+Get up and running with large language models
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://ollama.com/)
 [![Version: 0.11.8~ynh1](https://img.shields.io/badge/Version-0.11.8~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/ollama/)
