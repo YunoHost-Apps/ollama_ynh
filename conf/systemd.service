@@ -1,5 +1,5 @@
 [Unit]
-Description=Small description of the service
+Description=Olloma: Get up and running with large language models
 After=network.target
 
 [Service]
