@@ -6,7 +6,7 @@ id = "ollama"
 name = "Ollama"
 description.en = "Get up and running with large language models"
 
-version = "0.13.5~ynh1"
+version = "0.14.1~ynh1"
 
 maintainers = ["Thovi98"]
 
@@ -43,17 +43,17 @@ ram.runtime = "4G"
 
     [resources.sources.main]
 
-    amd64.url = "https://github.com/ollama/ollama/releases/download/v0.13.5/ollama-linux-amd64.tgz"
-    amd64.sha256 = "41fb93ff8be35e4d2d22bafd1c42b487efb15b766076d976766bd1ee4db3f8e2"
+    amd64.url = "https://github.com/ollama/ollama/releases/download/v0.14.1/ollama-linux-amd64.tar.zst"
+    amd64.sha256 = "93729e94dd4bb60889a1a4987fc09f932a2bdadc6ecc30a6194afb384e48bd0b"
     
-    arm64.url = "https://github.com/ollama/ollama/releases/download/v0.13.5/ollama-linux-arm64.tgz"
-    arm64.sha256 = "35898a3e6e6b3aa373e6ba381336bcfd5305f115a4c45dc8738cf96e25e0a557"
+    arm64.url = "https://github.com/ollama/ollama/releases/download/v0.14.1/ollama-linux-arm64.tar.zst"
+    arm64.sha256 = "8b1141e7ceacbced97a55616165e522c6d5d2c718c8985aa044a25d1faa9c37d"
     
     in_subdir = false
 
     autoupdate.strategy = "latest_github_release"
-    autoupdate.asset.amd64 = ".*linux-amd64.tgz"
-    autoupdate.asset.arm64 = ".*linux-arm64.tgz"
+    autoupdate.asset.amd64 = ".*linux-amd64.tar.zst"
+    autoupdate.asset.arm64 = ".*linux-arm64.tar.zst"
 
     [resources.system_user]
 
