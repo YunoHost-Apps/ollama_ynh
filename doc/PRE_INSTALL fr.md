@@ -1,1 +1,1 @@
-⚠️ Ollama à besoin d'un serveur ayant beaucoup de ressources pour fonctionner comme il faut.
+⚠️ Ollama a besoin d'un serveur ayant beaucoup de ressources pour fonctionner comme il faut.
