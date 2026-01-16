@@ -5,6 +5,7 @@ packaging_format = 2
 id = "ollama"
 name = "Ollama"
 description.en = "Get up and running with large language models"
+description.fr = "Lancez-vous avec les grands modèles de langage"
 
 version = "0.14.1~ynh1"
 
