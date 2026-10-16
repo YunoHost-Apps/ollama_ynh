@@ -7,7 +7,7 @@ name = "Ollama"
 description.en = "Get up and running with large language models"
 description.fr = "Lancez-vous avec les grands modèles de langage"
 
-version = "0.40.4~ynh1"
+version = "0.40.5~ynh1"
 
 maintainers = ["Thovi98"]
 
@@ -44,11 +44,11 @@ ram.runtime = "4G"
 
     [resources.sources.main]
 
-    amd64.url = "https://github.com/ollama/ollama/releases/download/v0.40.4/ollama-linux-amd64.tar.zst"
-    amd64.sha256 = "15f31e9576d15a481e099b4145dba6e9f8c1f295927d6b8895300ae30ed3740a"
+    amd64.url = "https://github.com/ollama/ollama/releases/download/v0.40.5/ollama-linux-amd64.tar.zst"
+    amd64.sha256 = "dc5eabc292f9949546c90a97c820f924b035e05243b0de13c7f366182562169c"
     
-    arm64.url = "https://github.com/ollama/ollama/releases/download/v0.40.4/ollama-linux-arm64.tar.zst"
-    arm64.sha256 = "1a314ac530d2c23bf6d2aaaf4a4aba8cc0b2a4ee8bc8fae3f3aa88bff7f7177b"
+    arm64.url = "https://github.com/ollama/ollama/releases/download/v0.40.5/ollama-linux-arm64.tar.zst"
+    arm64.sha256 = "fbe71ebb1a10e59b8480c4d2839826b5f9dff1a6d5c142428b2e7db9b1a2c642"
     
     in_subdir = false
 
